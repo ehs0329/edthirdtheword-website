@@ -1,5 +1,20 @@
+html {
+    background: lightgray;
+}
 body {
-    padding-right: 11em;
+    width: 60%;
+    margin: 0 auto;
+}
+header {
+    margin-bottom: 2.4em;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+nav {
+    float: left;
+    margin-right: 3em;
 }
 /* Strip out default styling for lists */
 ul, li {
@@ -7,7 +22,7 @@ ul, li {
     padding: 0;
     list-style: none;
 }
-/* Links within lists are block level elements */
+/* Style navbar links */
 li a {
     display: block;
     width: 8em;
@@ -17,14 +32,15 @@ li a {
     text-decoration: none;
     background: #1794D1;
     color: white;
-    border-bottom: .125em solid white;
+    border-bottom: .125em solid lightgray;
+}
+/* Remove border from last link in navbar */
+li:last-child a {
+    border-bottom: none;
 }
 li a:hover, li a:focus {
     background: #1377A8;
 }
-li:last-child a {
-    border-bottom: none;
-}
-nav ul {
-    padding-left: 11em;
+article {
+    margin-left: 11em;
 }
