@@ -22,6 +22,7 @@ h1 {
 }
 nav {
     float: left;
+    position: fixed;
     margin-right: 3em;
 }
 /* Strip out default styling for lists */
@@ -48,6 +49,13 @@ li:last-child a {
 }
 li a:hover, li a:focus {
     background: #1377A8;
+}
+p a {
+    color: #1794D1;
+    text-decoration: none;
+}
+p a:hover {
+    color: #1377A8;
 }
 article {
     margin-left: 11em;
