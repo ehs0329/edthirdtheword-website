@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 html {
     background: lightgray;
 }
@@ -10,9 +14,9 @@ body {
 }
 header {
     margin-bottom: 2.4em;
+    text-align: center;
 }
 h1 {
-    text-align: center;
     text-transform: uppercase;
 }
 nav {
@@ -46,4 +50,12 @@ li a:hover, li a:focus {
 }
 article {
     margin-left: 11em;
+}
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+footer {
+    text-align: center;
+    margin-top: 4em;
 }
