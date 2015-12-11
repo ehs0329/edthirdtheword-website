@@ -60,7 +60,7 @@ p a:visited {
 p a:hover, p a:focus {
     color: #1377A8;
 }
-article {
+main {
     margin-left: 11em;
 }
 p {
