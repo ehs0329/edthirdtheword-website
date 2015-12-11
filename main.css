@@ -57,10 +57,7 @@ p a:link {
 p a:visited {
     color: purple;
 }
-p a:hover {
-    color #1377A8;
-}
-p a:hover {
+p a:hover, p a:focus {
     color: #1377A8;
 }
 article {
