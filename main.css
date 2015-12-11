@@ -50,9 +50,15 @@ li:last-child a {
 li a:hover, li a:focus {
     background: #1377A8;
 }
-p a {
+p a:link {
     color: #1794D1;
     text-decoration: none;
+}
+p a:visited {
+    color: purple;
+}
+p a:hover {
+    color #1377A8;
 }
 p a:hover {
     color: #1377A8;
