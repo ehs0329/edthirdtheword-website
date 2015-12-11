@@ -41,7 +41,7 @@ li a {
     text-decoration: none;
     background: #1794D1;
     color: white;
-    border-bottom: .125em solid lightgray;
+    border-bottom: .125em solid white;
 }
 /* Remove border from last link in navbar */
 li:last-child a {
